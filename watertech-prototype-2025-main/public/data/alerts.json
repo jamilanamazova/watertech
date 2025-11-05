@@ -1,0 +1,106 @@
+{
+  "alerts": [
+    {
+      "id": "alert_001",
+      "timestamp": "2025-09-06T08:15:00Z",
+      "type": "water_quality",
+      "severity": "warning",
+      "source": "canal_a",
+      "source_name": "Upper Karabakh Canal - Main Section",
+      "parameter": "ec",
+      "value": "0.85",
+      "unit": "dS/m",
+      "threshold": "0.7",
+      "message": "Electrical conductivity exceeding recommended level for sensitive crops",
+      "recommendations": [
+        "Monitor crop response in sweet corn field",
+        "Adjust leaching fraction to 15%",
+        "Consider applying gypsum at 1 t/ha if EC continues to rise"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "alert_002",
+      "timestamp": "2025-09-05T16:30:00Z",
+      "type": "water_quality",
+      "severity": "critical",
+      "source": "well_c",
+      "source_name": "Groundwater Well - Mil-Mughan Region",
+      "parameter": "sar",
+      "value": "10.2",
+      "unit": "",
+      "threshold": "9.0",
+      "message": "Sodium Adsorption Ratio (SAR) at severe hazard level",
+      "recommendations": [
+        "Do not use for sensitive crops",
+        "Apply gypsum at 2 t/ha",
+        "Blend with canal water at 1:1 ratio if possible",
+        "Monitor soil infiltration rates"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "alert_003",
+      "timestamp": "2025-09-05T11:45:00Z",
+      "type": "algae_bloom",
+      "severity": "warning",
+      "source": "reservoir_x",
+      "source_name": "Jeyranbatan Reservoir",
+      "parameter": "chlorophyll_a",
+      "value": "18.6",
+      "unit": "µg/L",
+      "threshold": "15.0",
+      "message": "Algae bloom risk developing in Jeyranbatan Reservoir",
+      "recommendations": [
+        "Monitor water for visible algae before pumping",
+        "Consider alternating to canal source if available",
+        "Install fine mesh filters if using for drip irrigation"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "alert_004",
+      "timestamp": "2025-09-03T09:20:00Z",
+      "type": "soil_salinity",
+      "severity": "warning",
+      "source": "cotton_field",
+      "source_name": "Cotton Field East Section",
+      "parameter": "ec",
+      "value": "2.1",
+      "unit": "dS/m",
+      "threshold": "2.0",
+      "message": "Soil salinity moderately affecting cotton field",
+      "recommendations": [
+        "Increase irrigation volume by 15% for leaching",
+        "Apply gypsum at 1.5 t/ha",
+        "Consider switching to more salt-tolerant variety next season"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "alert_005",
+      "timestamp": "2025-08-28T13:10:00Z",
+      "type": "water_quality",
+      "severity": "information",
+      "source": "okhchuchay_monitoring",
+      "source_name": "Okhchuchay River - Monitoring Station 3",
+      "parameter": "iron",
+      "value": "2.8",
+      "unit": "mg/L",
+      "threshold": "1.5",
+      "message": "Elevated iron levels detected in Okhchuchay River",
+      "recommendations": [
+        "Use caution if this is your water source",
+        "Install oxidation tank and sand filtration if using for irrigation",
+        "Monitor for staining and clogging in irrigation equipment"
+      ],
+      "status": "resolved",
+      "resolution": {
+        "timestamp": "2025-09-02T10:15:00Z",
+        "value": "1.3",
+        "unit": "mg/L",
+        "note": "Levels returned to acceptable range after rainfall dilution"
+      }
+    }
+  ]
+}

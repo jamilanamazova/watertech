@@ -1,0 +1,104 @@
+{
+  "network_lengths": {
+    "total_irrigation_canals": {
+      "value": "47000-51755",
+      "unit": "km",
+      "description": "Different inventories"
+    },
+    "earthen_canals_share": {
+      "value": "73",
+      "unit": "%",
+      "description": "Percentage of total canals"
+    },
+    "lined_canals_share": {
+      "value": "27",
+      "unit": "%",
+      "description": "Percentage of total canals"
+    },
+    "collector_drainage_length": {
+      "value": "29640-33015",
+      "unit": "km",
+      "description": "Total network length"
+    },
+    "irrigated_area_with_drainage": {
+      "value": "45-50",
+      "unit": "%",
+      "description": "Area covered by subsurface drainage"
+    },
+    "earthen_canals_absolute_length": {
+      "value": "39336",
+      "unit": "km",
+      "description": "Total length of earthen canals"
+    },
+    "lined_canals_absolute_length": {
+      "value": "14569",
+      "unit": "km",
+      "description": "Total length of lined canals"
+    }
+  },
+  "major_canals": {
+    "samur_absheron": {
+      "name": "Samur-Absheron Main Canal",
+      "length": {
+        "value": "195",
+        "unit": "km"
+      },
+      "average_discharge": {
+        "value": "55",
+        "unit": "m³/s"
+      }
+    },
+    "upper_shirvan": {
+      "name": "Upper Shirvan Canal",
+      "length": {
+        "value": "122",
+        "unit": "km"
+      },
+      "design_capacity": {
+        "value": "78",
+        "unit": "m³/s"
+      },
+      "irrigated_area": {
+        "value": "100-127",
+        "unit": "thousand ha"
+      },
+      "reconstruction": {
+        "target_length": {
+          "value": "204",
+          "unit": "km"
+        },
+        "target_capacity": {
+          "value": "180",
+          "unit": "m³/s"
+        },
+        "target_service_area": {
+          "value": "228000",
+          "unit": "ha"
+        }
+      }
+    },
+    "upper_karabakh": {
+      "name": "Upper Karabakh Canal",
+      "length": {
+        "value": "172",
+        "unit": "km"
+      },
+      "irrigated_area": {
+        "value": "76-100",
+        "unit": "thousand ha"
+      }
+    },
+    "new_south_main": {
+      "name": "New South Main Canal",
+      "length": {
+        "value": "52",
+        "unit": "km"
+      },
+      "capacity": {
+        "value": "50",
+        "unit": "m³/s"
+      },
+      "description": "Qız Qalası → Cəbrayıl/Füzuli"
+    }
+  }
+}

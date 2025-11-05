@@ -1,0 +1,52 @@
+{
+  "regions": [
+    {
+      "id": "region_001",
+      "name": "Agjabadi District",
+      "water_sources": ["Upper Karabakh Canal", "Mil-Mughan Collector", "Local Groundwater"],
+      "main_crops": ["Cotton", "Wheat", "Barley", "Corn"],
+      "avg_farm_size": {
+        "value": 4.5,
+        "unit": "ha"
+      },
+      "soil_types": ["Clay Loam", "Silty Clay"],
+      "avg_soil_salinity": {
+        "value": 1.8,
+        "unit": "dS/m",
+        "classification": "slightly_saline"
+      }
+    },
+    {
+      "id": "region_002",
+      "name": "Beylagan District",
+      "water_sources": ["Mil-Karabakh Collector", "Upper Shirvan Canal", "Local Groundwater"],
+      "main_crops": ["Cotton", "Grain", "Vegetables"],
+      "avg_farm_size": {
+        "value": 5.2,
+        "unit": "ha"
+      },
+      "soil_types": ["Clay", "Clay Loam"],
+      "avg_soil_salinity": {
+        "value": 2.3,
+        "unit": "dS/m",
+        "classification": "moderately_saline"
+      }
+    },
+    {
+      "id": "region_003",
+      "name": "Sabirabad District",
+      "water_sources": ["Aras River", "Kura River", "Local Groundwater"],
+      "main_crops": ["Cotton", "Wheat", "Vegetables", "Melons"],
+      "avg_farm_size": {
+        "value": 3.7,
+        "unit": "ha"
+      },
+      "soil_types": ["Loam", "Sandy Loam"],
+      "avg_soil_salinity": {
+        "value": 1.2,
+        "unit": "dS/m",
+        "classification": "slightly_saline"
+      }
+    }
+  ]
+}

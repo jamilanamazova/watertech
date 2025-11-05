@@ -1,0 +1,70 @@
+{
+  "economics_pricing": {
+    "irrigation_fee": {
+      "value": "0.5",
+      "unit": "AZN per 1,000 m³",
+      "description": "Standard water fee for irrigation"
+    },
+    "household_water_tariff": {
+      "baku_absheron": {
+        "value": "0.70",
+        "unit": "AZN/m³",
+        "description": "Household water tariff in Baku/Absheron"
+      },
+      "other_regions": {
+        "value": "0.60",
+        "unit": "AZN/m³",
+        "description": "Household water tariff in other regions"
+      }
+    },
+    "wastewater_tariff": {
+      "value": "0.30",
+      "unit": "AZN/m³",
+      "description": "Population wastewater fee"
+    },
+    "water_supply_cost": {
+      "value": "1.91",
+      "unit": "AZN/m³",
+      "description": "Actual cost in Baku"
+    },
+    "connection_fees": {
+      "water_connection": {
+        "value": "200",
+        "unit": "AZN",
+        "description": "One-time water connection fee"
+      },
+      "sewer_connection": {
+        "value": "345",
+        "unit": "AZN",
+        "description": "One-time sewer connection fee"
+      }
+    },
+    "electricity_tariff": {
+      "value": "0.106",
+      "unit": "AZN/kWh",
+      "description": "Industry/agriculture rate"
+    },
+    "farmer_subsidies": {
+      "total_paid_2024": {
+        "value": "362.5",
+        "unit": "million AZN"
+      },
+      "farmers_supported_2024": {
+        "value": "380704",
+        "unit": "farmers"
+      }
+    },
+    "fertilizer_prices": {
+      "urea_export_price_2022": {
+        "value": "539",
+        "unit": "USD/t",
+        "description": "FOB average 2022"
+      },
+      "urea_import_price_2022": {
+        "value": "787",
+        "unit": "USD/t",
+        "description": "CIF average 2022"
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 190 100% 99%;
+    --foreground: 190 100% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 190 100% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 190 100% 10%;
+
+    --primary: 190 85% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 195 85% 30%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 190 15% 95%;
+    --muted-foreground: 190 40% 40%;
+
+    --accent: 190 95% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 190 20% 90%;
+    --input: 190 20% 90%;
+    --ring: 190 85% 40%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 190 50% 7%;
+    --foreground: 0 0% 95%;
+
+    --card: 190 50% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 190 50% 5%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 190 85% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 195 85% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 190 40% 15%;
+    --muted-foreground: 190 20% 70%;
+
+    --accent: 190 50% 20%;
+    --accent-foreground: 0 0% 95%;
+
+    --destructive: 0 84% 45%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 190 30% 20%;
+    --input: 190 30% 20%;
+    --ring: 190 85% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.5);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.7);
+}
+
+/* Water status indicators */
+.status-green {
+  @apply border border-status-green/20 bg-status-green/10 text-status-green;
+}
+
+.status-amber {
+  @apply border border-status-amber/20 bg-status-amber/10 text-status-amber;
+}
+
+.status-red {
+  @apply border border-status-red/20 bg-status-red/10 text-status-red;
+}
+
+/* Water status badges */
+.status-badge-green {
+  @apply bg-status-green text-white;
+}
+
+.status-badge-amber {
+  @apply bg-status-amber text-white;
+}
+
+.status-badge-red {
+  @apply bg-status-red text-white;
+}
+
+/* Animation for water ripple effect */
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.ripple-animation {
+  animation: ripple 2s infinite ease-out;
+}
+
+/* Map markers */
+.map-marker {
+  @apply relative cursor-pointer rounded-full shadow-md transition-transform duration-200 hover:scale-110;
+}
+
+.map-marker::after {
+  content: '';
+  @apply ripple-animation absolute inset-0 rounded-full opacity-50;
+}
+
+.map-marker.green {
+  @apply bg-status-green;
+}
+
+.map-marker.green::after {
+  @apply bg-status-green;
+}
+
+.map-marker.amber {
+  @apply bg-status-amber;
+}
+
+.map-marker.amber::after {
+  @apply bg-status-amber;
+}
+
+.map-marker.red {
+  @apply bg-status-red;
+}
+
+.map-marker.red::after {
+  @apply bg-status-red;
+}
+
+/* Modal styles */
+body:has(.modal-open) {
+  @apply overflow-hidden;
+}
+
+.modal-overlay {
+  @apply fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4;
+}
+
+.modal-content {
+  @apply relative max-h-[90vh] w-full max-w-3xl overflow-auto rounded-lg bg-white p-6 shadow-xl;
+}

@@ -1,0 +1,190 @@
+{
+  "recommendations": [
+    {
+      "id": "rec_001",
+      "timestamp": "2025-09-06T16:00:00Z",
+      "source": "canal_a",
+      "crop": "sweet_corn",
+      "status": "amber",
+      "summary": "Safe to irrigate with modified management",
+      "detailed_message": "Upper Karabakh Canal water is showing EC levels of 0.85 dS/m, which is slightly above the ideal threshold for sweet corn (0.7 dS/m). Irrigation can continue, but monitor crop closely for any signs of stress.",
+      "actions": [
+        {
+          "type": "irrigation_adjustment",
+          "description": "Increase leaching fraction to 15%",
+          "details": "Apply 15% extra water during each irrigation event to help flush salts below the root zone"
+        },
+        {
+          "type": "soil_amendment",
+          "description": "Apply gypsum at 1 t/ha",
+          "details": "Apply agricultural gypsum to help displace sodium and improve soil structure",
+          "estimated_cost": {
+            "value": "150",
+            "unit": "AZN/ha"
+          }
+        },
+        {
+          "type": "monitoring",
+          "description": "Monitor EC levels daily",
+          "details": "Use handheld EC meter to check irrigation water daily during high temperature periods"
+        }
+      ],
+      "expected_benefits": {
+        "yield_impact": {
+          "without_action": "-15%",
+          "with_action": "-3%"
+        },
+        "cost_benefit": {
+          "implementation_cost": {
+            "value": "2250",
+            "unit": "AZN"
+          },
+          "yield_value_saved": {
+            "value": "9000",
+            "unit": "AZN"
+          },
+          "roi": {
+            "value": "400",
+            "unit": "%"
+          }
+        }
+      }
+    },
+    {
+      "id": "rec_002",
+      "timestamp": "2025-09-06T16:00:00Z",
+      "source": "well_c",
+      "crop": "general",
+      "status": "red",
+      "summary": "Avoid using for most crops without treatment",
+      "detailed_message": "Well water has severe salinity (EC: 3.24 dS/m) and sodium hazard (SAR: 10.2). Using this water directly risks soil structure degradation and yield loss in most crops.",
+      "actions": [
+        {
+          "type": "water_source",
+          "description": "Switch to canal water if available",
+          "details": "Use Upper Karabakh Canal water instead of well water for irrigation"
+        },
+        {
+          "type": "water_blending",
+          "description": "Blend with canal water at 1:2 ratio",
+          "details": "If well water must be used, blend 1 part well water with 2 parts canal water to dilute salts"
+        },
+        {
+          "type": "soil_amendment",
+          "description": "Apply gypsum at 2 t/ha",
+          "details": "Apply agricultural gypsum to counteract sodium and maintain soil structure",
+          "estimated_cost": {
+            "value": "300",
+            "unit": "AZN/ha"
+          }
+        },
+        {
+          "type": "crop_selection",
+          "description": "Consider salt-tolerant crops",
+          "details": "For fields exclusively using this water source, consider barley, cotton, or tall wheatgrass which have higher salt tolerance"
+        }
+      ],
+      "expected_benefits": {
+        "yield_impact": {
+          "without_action": "-40%",
+          "with_action": "-10%"
+        },
+        "cost_benefit": {
+          "implementation_cost": {
+            "value": "6000",
+            "unit": "AZN"
+          },
+          "yield_value_saved": {
+            "value": "25500",
+            "unit": "AZN"
+          },
+          "roi": {
+            "value": "425",
+            "unit": "%"
+          }
+        }
+      }
+    },
+    {
+      "id": "rec_003",
+      "timestamp": "2025-09-06T16:00:00Z",
+      "source": "reservoir_b",
+      "crop": "all",
+      "status": "green",
+      "summary": "Safe to irrigate all crops",
+      "detailed_message": "Mingachevir Reservoir water quality is excellent with EC at 0.52 dS/m and all other parameters within optimal ranges. No restrictions for any crops.",
+      "actions": [
+        {
+          "type": "monitoring",
+          "description": "Maintain regular monitoring",
+          "details": "Continue with standard weekly water quality checks"
+        }
+      ],
+      "expected_benefits": {
+        "yield_impact": {
+          "without_action": "0%",
+          "with_action": "0%"
+        },
+        "cost_benefit": {
+          "implementation_cost": {
+            "value": "0",
+            "unit": "AZN"
+          },
+          "yield_value_saved": {
+            "value": "0",
+            "unit": "AZN"
+          },
+          "roi": {
+            "value": "0",
+            "unit": "%"
+          }
+        }
+      }
+    },
+    {
+      "id": "rec_004",
+      "timestamp": "2025-09-06T16:00:00Z",
+      "source": "cotton_field",
+      "crop": "cotton",
+      "status": "amber",
+      "summary": "Reduce nitrogen fertilizer application",
+      "detailed_message": "Soil tests and canal water analysis indicate elevated nitrate levels. Current cotton growth stage requires reduced nitrogen to prevent excessive vegetative growth and delayed maturity.",
+      "actions": [
+        {
+          "type": "fertilizer_adjustment",
+          "description": "Reduce nitrogen fertilizer by 30%",
+          "details": "Decrease next scheduled nitrogen application from 60 kg/ha to 42 kg/ha"
+        },
+        {
+          "type": "irrigation_management",
+          "description": "Maintain consistent soil moisture",
+          "details": "Avoid waterlogging which can lead to nitrogen leaching and groundwater contamination"
+        }
+      ],
+      "expected_benefits": {
+        "yield_impact": {
+          "without_action": "-8%",
+          "with_action": "+2%"
+        },
+        "cost_benefit": {
+          "implementation_cost": {
+            "value": "0",
+            "unit": "AZN"
+          },
+          "fertilizer_saved": {
+            "value": "1800",
+            "unit": "AZN"
+          },
+          "yield_value_improved": {
+            "value": "4500",
+            "unit": "AZN"
+          },
+          "roi": {
+            "value": "∞",
+            "unit": "%"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "reservoirs": {
+    "mingachevir": {
+      "name": "Mingachevir",
+      "storage": {
+        "value": "15.73",
+        "unit": "km³"
+      },
+      "surface_area": {
+        "value": "605",
+        "unit": "km²"
+      },
+      "length": {
+        "value": "70",
+        "unit": "km"
+      },
+      "width": {
+        "value": "18",
+        "unit": "km"
+      },
+      "max_depth": {
+        "value": "75",
+        "unit": "m"
+      }
+    },
+    "shamkir": {
+      "name": "Shamkir",
+      "total_volume": {
+        "value": "2677",
+        "unit": "million m³"
+      },
+      "exploited_volume": {
+        "value": "1425",
+        "unit": "million m³"
+      },
+      "surface_area": {
+        "value": "116",
+        "unit": "km²"
+      },
+      "hpp_capacity": {
+        "value": "380-420",
+        "unit": "MW"
+      },
+      "generation": {
+        "value": "772",
+        "unit": "GWh/yr"
+      }
+    },
+    "jeyranbatan": {
+      "name": "Jeyranbatan",
+      "volume": {
+        "value": "186",
+        "unit": "million m³"
+      },
+      "area": {
+        "value": "13.9",
+        "unit": "km²"
+      },
+      "length": {
+        "value": "8.74",
+        "unit": "km"
+      },
+      "width": {
+        "value": "2.15",
+        "unit": "km"
+      },
+      "shoreline": {
+        "value": "23.3",
+        "unit": "km"
+      }
+    },
+    "aras": {
+      "name": "Aras",
+      "capacity": {
+        "value": "1.254",
+        "unit": "km³"
+      },
+      "surface_area": {
+        "value": "145",
+        "unit": "km²"
+      },
+      "hpp_capacity": {
+        "value": "44",
+        "unit": "MW"
+      }
+    },
+    "taxtakorpu": {
+      "name": "Taxtakorpu",
+      "capacity": {
+        "value": "0.270",
+        "unit": "km³"
+      }
+    },
+    "sarsang": {
+      "name": "Sarsang",
+      "capacity": {
+        "value": "560-575",
+        "unit": "million m³"
+      },
+      "surface_area": {
+        "value": "14.2",
+        "unit": "km²"
+      },
+      "hpp_capacity": {
+        "value": "50",
+        "unit": "MW"
+      }
+    },
+    "khudafarin": {
+      "name": "Khudafarin",
+      "capacity": {
+        "value": "1.612",
+        "unit": "km³"
+      },
+      "hpp_capacity": {
+        "value": "102",
+        "unit": "MW"
+      },
+      "stored_may_2024": {
+        "value": "503",
+        "unit": "million m³"
+      }
+    },
+    "giz_galasi": {
+      "name": "Giz Galasi",
+      "total": {
+        "value": "62",
+        "unit": "million m³"
+      },
+      "stored_may_2024": {
+        "value": "42",
+        "unit": "million m³"
+      }
+    },
+    "sugovushan": {
+      "name": "Sugovushan",
+      "volume": {
+        "value": "5.86",
+        "unit": "million m³"
+      },
+      "dam": {
+        "length": {
+          "value": "630",
+          "unit": "m"
+        },
+        "height": {
+          "value": "28",
+          "unit": "m"
+        }
+      },
+      "main_canal_length": {
+        "value": "5.2",
+        "unit": "km"
+      },
+      "right_bank_capacity": {
+        "value": "50",
+        "unit": "m³/s"
+      },
+      "left_bank_capacity": {
+        "value": "20",
+        "unit": "m³/s"
+      },
+      "service_area": {
+        "value": "96217",
+        "unit": "ha"
+      }
+    }
+  }
+}

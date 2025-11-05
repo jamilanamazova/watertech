@@ -1,0 +1,172 @@
+{
+  "waterSources": [
+    {
+      "id": "source_001",
+      "name": "Upper Karabakh Canal - Main Section",
+      "type": "canal",
+      "coordinates": {
+        "latitude": 40.237,
+        "longitude": 47.558
+      },
+      "statusId": "canal_a",
+      "region": "Agjabadi District"
+    },
+    {
+      "id": "source_002",
+      "name": "Mingachevir Reservoir - South Shore",
+      "type": "reservoir",
+      "coordinates": {
+        "latitude": 40.362,
+        "longitude": 47.042
+      },
+      "statusId": "reservoir_b",
+      "region": "Mingachevir"
+    },
+    {
+      "id": "source_003",
+      "name": "Groundwater Well - Mil-Mughan Region",
+      "type": "well",
+      "coordinates": {
+        "latitude": 39.942,
+        "longitude": 48.153
+      },
+      "statusId": "well_c",
+      "region": "Beylagan District"
+    },
+    {
+      "id": "source_004",
+      "name": "Farm Reservoir",
+      "type": "reservoir",
+      "coordinates": {
+        "latitude": 40.105,
+        "longitude": 47.628
+      },
+      "statusId": null,
+      "region": "Agjabadi District"
+    },
+    {
+      "id": "source_005",
+      "name": "Jeyranbatan Reservoir",
+      "type": "reservoir",
+      "coordinates": {
+        "latitude": 40.508,
+        "longitude": 49.689
+      },
+      "statusId": "reservoir_x",
+      "region": "Absheron"
+    },
+    {
+      "id": "source_006",
+      "name": "Sugovushan Reservoir",
+      "type": "reservoir",
+      "coordinates": {
+        "latitude": 40.139,
+        "longitude": 46.554
+      },
+      "statusId": null,
+      "region": "Tartar District"
+    },
+    {
+      "id": "source_007",
+      "name": "Aras River - Monitoring Station 2",
+      "type": "river",
+      "coordinates": {
+        "latitude": 39.367,
+        "longitude": 48.142
+      },
+      "statusId": null,
+      "region": "Imishli District"
+    },
+    {
+      "id": "source_008",
+      "name": "Okhchuchay River - Monitoring Station 3",
+      "type": "river",
+      "coordinates": {
+        "latitude": 39.186,
+        "longitude": 46.628
+      },
+      "statusId": "okhchuchay_monitoring",
+      "region": "Zangilan District"
+    },
+    {
+      "id": "source_009",
+      "name": "Upper Shirvan Canal - North Section",
+      "type": "canal",
+      "coordinates": {
+        "latitude": 40.521,
+        "longitude": 48.926
+      },
+      "statusId": null,
+      "region": "Gobustan District"
+    },
+    {
+      "id": "source_010",
+      "name": "Kura River - Central Monitoring",
+      "type": "river",
+      "coordinates": {
+        "latitude": 40.067,
+        "longitude": 48.899
+      },
+      "statusId": null,
+      "region": "Shirvan"
+    }
+  ],
+  "farms": [
+    {
+      "id": "farm_123456",
+      "name": "Araz Valley Farm",
+      "coordinates": {
+        "latitude": 40.105,
+        "longitude": 47.628
+      },
+      "size": {
+        "value": 85,
+        "unit": "ha"
+      },
+      "owner": "Eldar Mammadov",
+      "region": "Agjabadi District"
+    },
+    {
+      "id": "farm_123457",
+      "name": "Shirvan Plains Farm",
+      "coordinates": {
+        "latitude": 40.035,
+        "longitude": 48.92
+      },
+      "size": {
+        "value": 120,
+        "unit": "ha"
+      },
+      "owner": "Aysel Huseynova",
+      "region": "Shirvan"
+    },
+    {
+      "id": "farm_123458",
+      "name": "Green Horizon Farm",
+      "coordinates": {
+        "latitude": 39.976,
+        "longitude": 48.174
+      },
+      "size": {
+        "value": 65,
+        "unit": "ha"
+      },
+      "owner": "Farid Aliyev",
+      "region": "Beylagan District"
+    },
+    {
+      "id": "farm_123459",
+      "name": "Kura Valley Cooperative",
+      "coordinates": {
+        "latitude": 39.955,
+        "longitude": 48.385
+      },
+      "size": {
+        "value": 250,
+        "unit": "ha"
+      },
+      "owner": "Cooperative (42 members)",
+      "region": "Imishli District"
+    }
+  ]
+}

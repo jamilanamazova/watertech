@@ -1,0 +1,275 @@
+{
+  "farm": {
+    "id": "farm_123456",
+    "name": "Araz Valley Farm",
+    "location": {
+      "latitude": 40.105,
+      "longitude": 47.628,
+      "region": "Agjabadi District"
+    },
+    "size": {
+      "value": 85,
+      "unit": "ha"
+    },
+    "water_sources": [
+      {
+        "id": "ws_001",
+        "name": "Upper Karabakh Canal",
+        "type": "canal",
+        "quality_station_id": "canal_a",
+        "distance_to_farm": {
+          "value": 1.2,
+          "unit": "km"
+        }
+      },
+      {
+        "id": "ws_002",
+        "name": "Farm Reservoir",
+        "type": "reservoir",
+        "size": {
+          "value": 4500,
+          "unit": "m³"
+        },
+        "quality_station_id": null
+      },
+      {
+        "id": "ws_003",
+        "name": "Well #12",
+        "type": "well",
+        "depth": {
+          "value": 145,
+          "unit": "m"
+        },
+        "quality_station_id": "well_c"
+      }
+    ],
+    "crops": [
+      {
+        "id": "crop_001",
+        "name": "Wheat",
+        "area": {
+          "value": 35,
+          "unit": "ha"
+        },
+        "planting_date": "2024-10-15",
+        "harvest_date": "2025-06-20",
+        "current_stage": "mature",
+        "water_requirements": {
+          "value": 550,
+          "unit": "mm/season"
+        }
+      },
+      {
+        "id": "crop_002",
+        "name": "Cotton",
+        "area": {
+          "value": 30,
+          "unit": "ha"
+        },
+        "planting_date": "2025-04-10",
+        "harvest_date": "2025-10-30",
+        "current_stage": "flowering",
+        "water_requirements": {
+          "value": 850,
+          "unit": "mm/season"
+        }
+      },
+      {
+        "id": "crop_003",
+        "name": "Sweet Corn",
+        "area": {
+          "value": 15,
+          "unit": "ha"
+        },
+        "planting_date": "2025-04-25",
+        "harvest_date": "2025-08-15",
+        "current_stage": "vegetative",
+        "water_requirements": {
+          "value": 600,
+          "unit": "mm/season"
+        }
+      },
+      {
+        "id": "crop_004",
+        "name": "Alfalfa",
+        "area": {
+          "value": 5,
+          "unit": "ha"
+        },
+        "planting_date": "2025-03-20",
+        "harvest_date": "multiple_cuts",
+        "current_stage": "regrowth",
+        "water_requirements": {
+          "value": 900,
+          "unit": "mm/season"
+        }
+      }
+    ],
+    "sensors": [
+      {
+        "id": "sensor_001",
+        "type": "water_quality",
+        "location": {
+          "name": "Canal Intake",
+          "latitude": 40.108,
+          "longitude": 47.622
+        },
+        "parameters": ["ec", "ph", "turbidity", "temperature"],
+        "last_reading": "2025-09-06T14:30:00Z",
+        "status": "active"
+      },
+      {
+        "id": "sensor_002",
+        "type": "water_quality",
+        "location": {
+          "name": "Well Pump",
+          "latitude": 40.103,
+          "longitude": 47.631
+        },
+        "parameters": ["ec", "ph", "nitrate", "temperature"],
+        "last_reading": "2025-09-06T13:45:00Z",
+        "status": "active"
+      },
+      {
+        "id": "sensor_003",
+        "type": "soil_moisture",
+        "location": {
+          "name": "Wheat Field Center",
+          "latitude": 40.106,
+          "longitude": 47.632
+        },
+        "depths": ["10cm", "30cm", "60cm"],
+        "last_reading": "2025-09-06T15:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "sensor_004",
+        "type": "soil_moisture",
+        "location": {
+          "name": "Cotton Field East",
+          "latitude": 40.102,
+          "longitude": 47.635
+        },
+        "depths": ["10cm", "30cm", "60cm"],
+        "last_reading": "2025-09-06T15:00:00Z",
+        "status": "active"
+      },
+      {
+        "id": "sensor_005",
+        "type": "weather",
+        "location": {
+          "name": "Farm Center",
+          "latitude": 40.105,
+          "longitude": 47.629
+        },
+        "parameters": ["temperature", "humidity", "wind_speed", "rainfall"],
+        "last_reading": "2025-09-06T15:15:00Z",
+        "status": "active"
+      }
+    ],
+    "soil_data": {
+      "wheat_field": {
+        "texture": "clay loam",
+        "ec": {
+          "value": "1.2",
+          "unit": "dS/m"
+        },
+        "ph": {
+          "value": "7.8",
+          "unit": ""
+        },
+        "organic_matter": {
+          "value": "1.8",
+          "unit": "%"
+        },
+        "status": "slightly_saline"
+      },
+      "cotton_field": {
+        "texture": "silty clay",
+        "ec": {
+          "value": "2.1",
+          "unit": "dS/m"
+        },
+        "ph": {
+          "value": "8.0",
+          "unit": ""
+        },
+        "organic_matter": {
+          "value": "1.5",
+          "unit": "%"
+        },
+        "status": "moderately_saline"
+      },
+      "corn_field": {
+        "texture": "loam",
+        "ec": {
+          "value": "0.9",
+          "unit": "dS/m"
+        },
+        "ph": {
+          "value": "7.6",
+          "unit": ""
+        },
+        "organic_matter": {
+          "value": "2.1",
+          "unit": "%"
+        },
+        "status": "non_saline"
+      },
+      "alfalfa_field": {
+        "texture": "sandy loam",
+        "ec": {
+          "value": "1.7",
+          "unit": "dS/m"
+        },
+        "ph": {
+          "value": "7.9",
+          "unit": ""
+        },
+        "organic_matter": {
+          "value": "2.3",
+          "unit": "%"
+        },
+        "status": "slightly_saline"
+      }
+    },
+    "irrigation_systems": [
+      {
+        "type": "furrow",
+        "area_covered": {
+          "value": 65,
+          "unit": "ha"
+        },
+        "crops": ["wheat", "cotton"],
+        "efficiency": {
+          "value": 40,
+          "unit": "%"
+        }
+      },
+      {
+        "type": "drip",
+        "area_covered": {
+          "value": 15,
+          "unit": "ha"
+        },
+        "crops": ["sweet_corn"],
+        "efficiency": {
+          "value": 85,
+          "unit": "%"
+        }
+      },
+      {
+        "type": "sprinkler",
+        "area_covered": {
+          "value": 5,
+          "unit": "ha"
+        },
+        "crops": ["alfalfa"],
+        "efficiency": {
+          "value": 75,
+          "unit": "%"
+        }
+      }
+    ]
+  }
+}

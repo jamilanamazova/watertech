@@ -1,0 +1,105 @@
+{
+  "groundwater": {
+    "annual_groundwater_pumping": {
+      "value": "2.9",
+      "unit": "billion m³/yr"
+    },
+    "well_depths": {
+      "value": "120-200",
+      "unit": "m",
+      "description": "Typical range"
+    },
+    "mineral_water_reserves": {
+      "value": "20000",
+      "unit": "m³/day"
+    },
+    "thermal_water_reserves": {
+      "value": "130000",
+      "unit": "m³/day"
+    },
+    "high_discharge_karst_spring": {
+      "value": ">100",
+      "unit": "L/s",
+      "description": "Example flow rate"
+    },
+    "hydrometric_stations_liberated_areas": {
+      "value": "10",
+      "unit": "stations",
+      "description": "Campaign measurement"
+    }
+  },
+  "institutions": {
+    "wuas_supported_wb": {
+      "value": "379",
+      "unit": "units",
+      "period": "2011-2018",
+      "description": "Water Users' Associations supported by World Bank"
+    },
+    "wua_members": {
+      "value": "760000",
+      "unit": "people"
+    },
+    "agriculture_workforce_share": {
+      "value": "37",
+      "unit": "%",
+      "year": "2023"
+    }
+  },
+  "weather_climate": {
+    "era5_land": {
+      "horizontal_resolution": {
+        "value": "9",
+        "unit": "km",
+        "description": "Approximate"
+      },
+      "temporal_resolution": {
+        "value": "1",
+        "unit": "hour"
+      },
+      "period": {
+        "value": "1950",
+        "unit": "onwards"
+      }
+    },
+    "chirps": {
+      "grid": {
+        "value": "0.05",
+        "unit": "degrees",
+        "description": "Approximately 5 km"
+      },
+      "period": {
+        "value": "1981",
+        "unit": "onwards"
+      }
+    },
+    "jrc_global_surface_water": {
+      "resolution": {
+        "value": "30",
+        "unit": "m"
+      },
+      "period": {
+        "value": "1984-2021",
+        "unit": ""
+      }
+    },
+    "ecmwf_hres": {
+      "resolution": {
+        "value": "9",
+        "unit": "km",
+        "description": "Approximate"
+      },
+      "runs_per_day": {
+        "value": "4",
+        "unit": "times",
+        "description": "00/06/12/18Z"
+      }
+    },
+    "ecmwf_ens": {
+      "resolution": {
+        "value": "9",
+        "unit": "km",
+        "description": "Approximate"
+      }
+    }
+  }
+}

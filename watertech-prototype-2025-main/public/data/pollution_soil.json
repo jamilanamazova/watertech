@@ -1,0 +1,74 @@
+{
+  "historical_pollution": {
+    "okhchuchay": {
+      "nickel_exceedance": {
+        "value": "7.1×",
+        "unit": "norm",
+        "description": "Above permitted levels"
+      },
+      "iron_exceedance": {
+        "value": "4-5.2×",
+        "unit": "norm",
+        "description": "Above permitted levels"
+      },
+      "copper_molybdenum_exceedance": {
+        "value": "2×",
+        "unit": "norm",
+        "description": "Above permitted levels"
+      }
+    },
+    "low_do_episode": {
+      "value": "4-5",
+      "unit": "mg/L",
+      "description": "Versus ~6 mg/L typical"
+    }
+  },
+  "soil_data": {
+    "salt_affected_land": {
+      "value": "615000",
+      "unit": "ha",
+      "description": "Total affected area"
+    },
+    "kura_aras_non_saline_soils": {
+      "value": "495000",
+      "unit": "ha"
+    },
+    "slightly_saline_soils": {
+      "value": "382000",
+      "unit": "ha"
+    },
+    "saline_soils": {
+      "value": "415000",
+      "unit": "ha"
+    },
+    "strongly_saline_soils": {
+      "value": "449000",
+      "unit": "ha"
+    },
+    "extremely_saline_soils": {
+      "value": "174000",
+      "unit": "ha"
+    },
+    "salinized_lands_high_estimate": {
+      "value": "1000000",
+      "unit": "ha",
+      "description": "High estimate of total salinized lands"
+    }
+  },
+  "rehabilitation": {
+    "canal_rehab_commissioned": {
+      "value": "2277",
+      "unit": "km",
+      "period": "2024-2025"
+    },
+    "remediation_soil_removal_depth": {
+      "value": "0.4",
+      "unit": "m"
+    },
+    "remediated_site_area": {
+      "value": "2",
+      "unit": "ha",
+      "description": "Pilot project"
+    }
+  }
+}

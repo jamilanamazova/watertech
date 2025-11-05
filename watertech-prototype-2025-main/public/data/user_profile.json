@@ -1,0 +1,34 @@
+{
+  "user": {
+    "id": "user_12345",
+    "name": "Eldar Mammadov",
+    "role": "Farm Owner",
+    "email": "eldar.mammadov@agrofarm.az",
+    "phone": "+994 55 123 4567",
+    "farms": [
+      {
+        "id": "farm_123456",
+        "name": "Araz Valley Farm"
+      }
+    ],
+    "language_preference": "Azerbaijani",
+    "notifications": {
+      "email": true,
+      "sms": true,
+      "app": true,
+      "critical_only": false
+    },
+    "subscription": {
+      "type": "premium",
+      "features": [
+        "real_time_alerts",
+        "crop_specific_recommendations",
+        "chat_advisor",
+        "detailed_reports",
+        "historical_data"
+      ],
+      "expiration_date": "2026-03-15"
+    },
+    "last_login": "2025-09-06T08:45:23Z"
+  }
+}

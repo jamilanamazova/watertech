@@ -1,0 +1,310 @@
+{
+  "water_quality_readings": {
+    "canal_a": {
+      "name": "Upper Karabakh Canal - Main Section",
+      "current_readings": {
+        "timestamp": "2025-09-06T14:30:00Z",
+        "ec": {
+          "value": "0.85",
+          "unit": "dS/m",
+          "status": "slight_restriction"
+        },
+        "ph": {
+          "value": "7.8",
+          "unit": "pH",
+          "status": "normal"
+        },
+        "turbidity": {
+          "value": "42",
+          "unit": "NTU",
+          "status": "normal"
+        },
+        "do": {
+          "value": "6.2",
+          "unit": "mg/L",
+          "status": "good"
+        },
+        "nitrate": {
+          "value": "7.3",
+          "unit": "mg/L",
+          "status": "moderate"
+        },
+        "phosphate": {
+          "value": "0.07",
+          "unit": "mg/L",
+          "status": "normal"
+        },
+        "temperature": {
+          "value": "22.4",
+          "unit": "°C",
+          "status": "normal"
+        },
+        "iron": {
+          "value": "0.18",
+          "unit": "mg/L",
+          "status": "low_risk"
+        },
+        "chloride": {
+          "value": "45",
+          "unit": "mg/L",
+          "status": "normal"
+        },
+        "sar": {
+          "value": "2.3",
+          "unit": "",
+          "status": "low_hazard"
+        }
+      },
+      "historical_data": {
+        "ec": [
+          { "date": "2025-09-01", "value": 0.82 },
+          { "date": "2025-09-02", "value": 0.83 },
+          { "date": "2025-09-03", "value": 0.79 },
+          { "date": "2025-09-04", "value": 0.88 },
+          { "date": "2025-09-05", "value": 0.87 },
+          { "date": "2025-09-06", "value": 0.85 }
+        ],
+        "nitrate": [
+          { "date": "2025-09-01", "value": 6.8 },
+          { "date": "2025-09-02", "value": 7.1 },
+          { "date": "2025-09-03", "value": 6.9 },
+          { "date": "2025-09-04", "value": 7.5 },
+          { "date": "2025-09-05", "value": 7.4 },
+          { "date": "2025-09-06", "value": 7.3 }
+        ],
+        "ph": [
+          { "date": "2025-09-01", "value": 7.7 },
+          { "date": "2025-09-02", "value": 7.8 },
+          { "date": "2025-09-03", "value": 7.9 },
+          { "date": "2025-09-04", "value": 7.7 },
+          { "date": "2025-09-05", "value": 7.8 },
+          { "date": "2025-09-06", "value": 7.8 }
+        ]
+      },
+      "recommendations": {
+        "status": "amber",
+        "summary": "Slight salinity restriction for sensitive crops",
+        "details": "EC levels are slightly elevated, consider adjusting irrigation for sensitive crops",
+        "crops_affected": ["sweet_corn", "bean", "carrot"],
+        "actions": [
+          "Safe to irrigate most crops",
+          "Consider higher leaching fraction (15%) for sensitive crops",
+          "Monitor EC levels daily during high temperature periods"
+        ]
+      },
+      "location": {
+        "latitude": 40.237,
+        "longitude": 47.558,
+        "description": "Main section - Station 12"
+      }
+    },
+    "reservoir_b": {
+      "name": "Mingachevir Reservoir - South Shore",
+      "current_readings": {
+        "timestamp": "2025-09-06T15:00:00Z",
+        "ec": {
+          "value": "0.52",
+          "unit": "dS/m",
+          "status": "no_restriction"
+        },
+        "ph": {
+          "value": "7.5",
+          "unit": "pH",
+          "status": "normal"
+        },
+        "turbidity": {
+          "value": "17",
+          "unit": "NTU",
+          "status": "good"
+        },
+        "do": {
+          "value": "7.1",
+          "unit": "mg/L",
+          "status": "good"
+        },
+        "nitrate": {
+          "value": "3.2",
+          "unit": "mg/L",
+          "status": "low"
+        },
+        "phosphate": {
+          "value": "0.05",
+          "unit": "mg/L",
+          "status": "normal"
+        },
+        "temperature": {
+          "value": "23.8",
+          "unit": "°C",
+          "status": "normal"
+        },
+        "iron": {
+          "value": "0.14",
+          "unit": "mg/L",
+          "status": "low_risk"
+        },
+        "chloride": {
+          "value": "32",
+          "unit": "mg/L",
+          "status": "normal"
+        },
+        "sar": {
+          "value": "1.7",
+          "unit": "",
+          "status": "low_hazard"
+        },
+        "algae_bloom_risk": {
+          "value": "Low",
+          "description": "Chlorophyll-a levels normal"
+        }
+      },
+      "historical_data": {
+        "ec": [
+          { "date": "2025-09-01", "value": 0.53 },
+          { "date": "2025-09-02", "value": 0.54 },
+          { "date": "2025-09-03", "value": 0.51 },
+          { "date": "2025-09-04", "value": 0.53 },
+          { "date": "2025-09-05", "value": 0.54 },
+          { "date": "2025-09-06", "value": 0.52 }
+        ],
+        "nitrate": [
+          { "date": "2025-09-01", "value": 3.4 },
+          { "date": "2025-09-02", "value": 3.5 },
+          { "date": "2025-09-03", "value": 3.3 },
+          { "date": "2025-09-04", "value": 3.2 },
+          { "date": "2025-09-05", "value": 3.3 },
+          { "date": "2025-09-06", "value": 3.2 }
+        ],
+        "ph": [
+          { "date": "2025-09-01", "value": 7.6 },
+          { "date": "2025-09-02", "value": 7.6 },
+          { "date": "2025-09-03", "value": 7.5 },
+          { "date": "2025-09-04", "value": 7.5 },
+          { "date": "2025-09-05", "value": 7.6 },
+          { "date": "2025-09-06", "value": 7.5 }
+        ]
+      },
+      "recommendations": {
+        "status": "green",
+        "summary": "Excellent water quality for all crops",
+        "details": "All parameters within optimal ranges for irrigation",
+        "crops_affected": [],
+        "actions": [
+          "Safe to irrigate all crops",
+          "Maintain current monitoring schedule",
+          "No special measures required"
+        ]
+      },
+      "location": {
+        "latitude": 40.362,
+        "longitude": 47.042,
+        "description": "South shore monitoring station"
+      }
+    },
+    "well_c": {
+      "name": "Groundwater Well - Mil-Mughan Region",
+      "current_readings": {
+        "timestamp": "2025-09-06T13:45:00Z",
+        "ec": {
+          "value": "3.24",
+          "unit": "dS/m",
+          "status": "severe_restriction"
+        },
+        "ph": {
+          "value": "8.2",
+          "unit": "pH",
+          "status": "high_risk"
+        },
+        "turbidity": {
+          "value": "8",
+          "unit": "NTU",
+          "status": "good"
+        },
+        "do": {
+          "value": "4.1",
+          "unit": "mg/L",
+          "status": "low"
+        },
+        "nitrate": {
+          "value": "12.7",
+          "unit": "mg/L",
+          "status": "high"
+        },
+        "phosphate": {
+          "value": "0.03",
+          "unit": "mg/L",
+          "status": "normal"
+        },
+        "temperature": {
+          "value": "19.2",
+          "unit": "°C",
+          "status": "normal"
+        },
+        "iron": {
+          "value": "2.1",
+          "unit": "mg/L",
+          "status": "high_risk"
+        },
+        "chloride": {
+          "value": "362",
+          "unit": "mg/L",
+          "status": "high"
+        },
+        "sar": {
+          "value": "10.2",
+          "unit": "",
+          "status": "severe_hazard"
+        },
+        "boron": {
+          "value": "2.4",
+          "unit": "mg/L",
+          "status": "high"
+        }
+      },
+      "historical_data": {
+        "ec": [
+          { "date": "2025-09-01", "value": 3.18 },
+          { "date": "2025-09-02", "value": 3.21 },
+          { "date": "2025-09-03", "value": 3.25 },
+          { "date": "2025-09-04", "value": 3.27 },
+          { "date": "2025-09-05", "value": 3.22 },
+          { "date": "2025-09-06", "value": 3.24 }
+        ],
+        "nitrate": [
+          { "date": "2025-09-01", "value": 12.3 },
+          { "date": "2025-09-02", "value": 12.5 },
+          { "date": "2025-09-03", "value": 12.8 },
+          { "date": "2025-09-04", "value": 12.9 },
+          { "date": "2025-09-05", "value": 12.6 },
+          { "date": "2025-09-06", "value": 12.7 }
+        ],
+        "sar": [
+          { "date": "2025-09-01", "value": 10.0 },
+          { "date": "2025-09-02", "value": 10.1 },
+          { "date": "2025-09-03", "value": 10.2 },
+          { "date": "2025-09-04", "value": 10.3 },
+          { "date": "2025-09-05", "value": 10.2 },
+          { "date": "2025-09-06", "value": 10.2 }
+        ]
+      },
+      "recommendations": {
+        "status": "red",
+        "summary": "Severe salinity and sodium hazard",
+        "details": "High EC, SAR and nitrate levels make this water unsuitable for most crops without treatment",
+        "crops_affected": ["most_crops"],
+        "crops_suitable": ["barley", "tall_wheatgrass", "salt_tolerant_crops"],
+        "actions": [
+          "Avoid using for sensitive and moderately sensitive crops",
+          "Apply gypsum at 2 t/ha to counteract sodium",
+          "Consider blending with canal water if available",
+          "Use for salt-tolerant crops only",
+          "Install subsurface drainage if using continuously"
+        ]
+      },
+      "location": {
+        "latitude": 39.942,
+        "longitude": 48.153,
+        "description": "Well #47 - Mil-Mughan region"
+      }
+    }
+  }
+}

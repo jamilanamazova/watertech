@@ -1,0 +1,95 @@
+{
+  "monitoring_telemetry": {
+    "automatic_hydrological_stations": {
+      "value": "40",
+      "unit": "units",
+      "description": "Automatic stations for water monitoring"
+    },
+    "traditional_hydrological_stations": {
+      "value": "44",
+      "unit": "units",
+      "description": "Traditional hydrological monitoring stations"
+    },
+    "automatic_meteorological_stations": {
+      "value": "51",
+      "unit": "units",
+      "description": "Automatic weather stations"
+    },
+    "water_bodies_monitored": {
+      "value": "53",
+      "unit": "units",
+      "description": "Rivers, lakes, and reservoirs monitored since 2023"
+    },
+    "groundwater_monitoring_sites": {
+      "value": "98",
+      "unit": "units",
+      "description": "In Upper Kura RBD"
+    },
+    "automatic_weather_radars": {
+      "value": "2",
+      "unit": "units",
+      "description": "Doppler radars"
+    },
+    "telemetry_specs": {
+      "stage_flow_logging_interval": {
+        "value": "15",
+        "unit": "min",
+        "description": "Normal logging interval"
+      },
+      "fast_alert_interval": {
+        "value": "5",
+        "unit": "min",
+        "description": "For rapid changes"
+      },
+      "routine_telemetry_send": {
+        "value": "1-4",
+        "unit": "h",
+        "description": "Standard data transmission interval"
+      },
+      "emergency_telemetry_send": {
+        "value": "15",
+        "unit": "min",
+        "description": "Fast transmission during alerts"
+      },
+      "rain_gauge_minimum_interval": {
+        "value": "≤15",
+        "unit": "min",
+        "description": "For precipitation monitoring"
+      },
+      "lora_specs": {
+        "eu868_duty_cycle": {
+          "value": "1",
+          "unit": "%"
+        },
+        "eu868_max_channels": {
+          "value": "16",
+          "unit": "channels"
+        },
+        "eu868_max_eirp": {
+          "value": "+16",
+          "unit": "dBm"
+        },
+        "rx_sensitivity_sf7": {
+          "value": "-123",
+          "unit": "dBm",
+          "bandwidth": "125 kHz"
+        },
+        "rx_sensitivity_sf12": {
+          "value": "-137",
+          "unit": "dBm",
+          "bandwidth": "125 kHz"
+        }
+      },
+      "nb_iot_specs": {
+        "bandwidth": {
+          "value": "180",
+          "unit": "kHz"
+        },
+        "maximum_coupling_loss": {
+          "value": "164",
+          "unit": "dB"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "water_quality_thresholds": {
+    "ec": {
+      "no_restriction": {
+        "value": "<0.7",
+        "unit": "dS/m",
+        "description": "Electrical conductivity - no restriction on use"
+      },
+      "slight_to_moderate": {
+        "value": "0.7-3.0",
+        "unit": "dS/m",
+        "description": "Electrical conductivity - slight to moderate restriction"
+      },
+      "severe": {
+        "value": ">3.0",
+        "unit": "dS/m",
+        "description": "Electrical conductivity - severe restriction"
+      }
+    },
+    "sar": {
+      "low_hazard": {
+        "value": "<3",
+        "unit": "",
+        "description": "Sodium Adsorption Ratio - low hazard"
+      },
+      "moderate": {
+        "value": "3-9",
+        "unit": "",
+        "description": "Sodium Adsorption Ratio - moderate hazard"
+      },
+      "severe": {
+        "value": ">9",
+        "unit": "",
+        "description": "Sodium Adsorption Ratio - severe hazard"
+      }
+    },
+    "boron": {
+      "sensitive_crops": {
+        "value": "0.33-0.75",
+        "unit": "mg/L",
+        "description": "Boron guideline for sensitive crops"
+      },
+      "moderately_tolerant": {
+        "value": "0.75-2.0",
+        "unit": "mg/L",
+        "description": "Boron guideline for moderately tolerant crops"
+      },
+      "tolerant_crops": {
+        "value": "2.0-3.0",
+        "unit": "mg/L",
+        "description": "Boron guideline for tolerant crops"
+      },
+      "fruit_trees": {
+        "value": "≤0.5",
+        "unit": "mg/L",
+        "description": "Limit for fruit trees"
+      }
+    },
+    "drip_clogging_risk": {
+      "iron": {
+        "low": {
+          "value": "<0.2",
+          "unit": "mg/L"
+        },
+        "moderate": {
+          "value": "0.2-1.5",
+          "unit": "mg/L"
+        },
+        "high": {
+          "value": ">1.5",
+          "unit": "mg/L"
+        }
+      },
+      "manganese": {
+        "low": {
+          "value": "<0.1",
+          "unit": "mg/L"
+        },
+        "moderate": {
+          "value": "0.1-1.5",
+          "unit": "mg/L"
+        },
+        "high": {
+          "value": ">1.5",
+          "unit": "mg/L"
+        }
+      },
+      "tss": {
+        "low": {
+          "value": "<50",
+          "unit": "mg/L"
+        },
+        "moderate": {
+          "value": "50-100",
+          "unit": "mg/L"
+        },
+        "high": {
+          "value": ">100",
+          "unit": "mg/L"
+        }
+      },
+      "tds": {
+        "low": {
+          "value": "<500",
+          "unit": "mg/L"
+        },
+        "moderate": {
+          "value": "500-2000",
+          "unit": "mg/L"
+        },
+        "high": {
+          "value": ">2000",
+          "unit": "mg/L"
+        }
+      },
+      "h2s": {
+        "low": {
+          "value": "<0.2",
+          "unit": "mg/L"
+        },
+        "moderate": {
+          "value": "0.2-2.0",
+          "unit": "mg/L"
+        },
+        "high": {
+          "value": ">2.0",
+          "unit": "mg/L"
+        }
+      },
+      "bacteria": {
+        "low": {
+          "value": "<10000",
+          "unit": "CFU/mL"
+        },
+        "moderate": {
+          "value": "10000-50000",
+          "unit": "CFU/mL"
+        },
+        "high": {
+          "value": ">50000",
+          "unit": "CFU/mL"
+        }
+      }
+    },
+    "ph": {
+      "low_clogging_risk": {
+        "value": "<7.0",
+        "unit": "pH",
+        "description": "Low clogging risk"
+      },
+      "high_clogging_risk": {
+        "value": ">8.0",
+        "unit": "pH",
+        "description": "High clogging risk"
+      }
+    },
+    "metal_limits": {
+      "arsenic": {
+        "value": "≤0.10",
+        "unit": "mg/L"
+      },
+      "cadmium": {
+        "value": "≤0.01",
+        "unit": "mg/L"
+      },
+      "chromium": {
+        "value": "≤0.10",
+        "unit": "mg/L"
+      },
+      "copper": {
+        "value": "≤0.20",
+        "unit": "mg/L"
+      },
+      "zinc": {
+        "value": "≤2.0",
+        "unit": "mg/L"
+      },
+      "nickel": {
+        "value": "≤0.20",
+        "unit": "mg/L"
+      },
+      "selenium": {
+        "value": "≤0.02",
+        "unit": "mg/L"
+      },
+      "molybdenum": {
+        "value": "≤0.01",
+        "unit": "mg/L"
+      },
+      "cobalt": {
+        "value": "≤0.05",
+        "unit": "mg/L"
+      },
+      "vanadium": {
+        "value": "≤0.10",
+        "unit": "mg/L"
+      },
+      "aluminum": {
+        "value": "≤5.0",
+        "unit": "mg/L"
+      },
+      "mercury": {
+        "value": "≤0.002",
+        "unit": "mg/L"
+      },
+      "lead": {
+        "value": "≤5.0",
+        "unit": "mg/L"
+      }
+    },
+    "other_parameters": {
+      "chloride_sprinkler_burn": {
+        "value": ">100",
+        "unit": "mg/L",
+        "description": "Chloride level that risks leaf burn with sprinkler irrigation"
+      },
+      "bicarbonate_precipitation": {
+        "value": ">1.5",
+        "unit": "meq/L",
+        "description": "Bicarbonate precipitation risk"
+      },
+      "nitrate_n_drinking": {
+        "value": "10",
+        "unit": "mg/L",
+        "description": "Nitrate-N drinking water guideline"
+      },
+      "total_phosphorus_bloom": {
+        "value": ">0.10",
+        "unit": "mg/L",
+        "description": "Total phosphorus bloom trigger"
+      },
+      "chlorophyll_a_bloom": {
+        "value": ">20",
+        "unit": "µg/L",
+        "description": "Chlorophyll-a bloom alert level"
+      },
+      "microcystin_lr_alert": {
+        "value": "1",
+        "unit": "µg/L",
+        "description": "Microcystin-LR alert level"
+      },
+      "turbidity_drip_caution": {
+        "value": ">50",
+        "unit": "NTU",
+        "description": "Turbidity caution for drip irrigation"
+      }
+    }
+  }
+}

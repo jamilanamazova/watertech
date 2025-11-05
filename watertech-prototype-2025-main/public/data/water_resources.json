@@ -1,0 +1,81 @@
+{
+  "national_balance": {
+    "total_renewable_freshwater": {
+      "value": "35-38",
+      "unit": "billion m³/yr",
+      "description": "Long-term average"
+    },
+    "per_capita_renewable_water": {
+      "value": "3000",
+      "unit": "m³/person/yr",
+      "description": "Illustrative year"
+    },
+    "external_water_dependency": {
+      "value": "70-77",
+      "unit": "%",
+      "description": "Share of resources formed outside Azerbaijan"
+    },
+    "mean_national_precipitation": {
+      "value": "447",
+      "unit": "mm/yr",
+      "description": "1992-2021 norm"
+    },
+    "rivers_count": {
+      "value": "8300+",
+      "unit": "watercourses",
+      "description": "Total count in Azerbaijan"
+    },
+    "reservoirs_count": {
+      "value": "135",
+      "unit": "reservoirs",
+      "description": "Country total"
+    },
+    "reservoirs_total_storage": {
+      "value": "21.5",
+      "unit": "km³",
+      "description": "Combined storage"
+    }
+  },
+  "irrigation_footprint": {
+    "area_equipped_for_irrigation_aquastat": {
+      "value": "1446",
+      "unit": "thousand ha",
+      "description": "Latest FAO series year"
+    },
+    "irrigated_area_gmia": {
+      "value": "1426000",
+      "unit": "ha",
+      "description": "Total mapped area"
+    },
+    "irrigation_from_surface_water": {
+      "value": "1329300",
+      "unit": "ha",
+      "description": "Surface water irrigated land"
+    },
+    "irrigation_from_groundwater": {
+      "value": "96700",
+      "unit": "ha",
+      "description": "Groundwater irrigated land"
+    },
+    "total_water_withdrawal": {
+      "value": "12.8-13.0",
+      "unit": "billion m³/yr",
+      "description": "Recent range (2017-2021)"
+    },
+    "agriculture_share_of_withdrawals": {
+      "value": "76",
+      "unit": "%",
+      "description": "Percentage of total withdrawals"
+    },
+    "national_irrigation_efficiency": {
+      "value": "37",
+      "unit": "%",
+      "description": "Overall efficiency"
+    },
+    "conveyance_losses": {
+      "value": "25-30",
+      "unit": "%",
+      "description": "Transport losses national ballpark"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "crop_thresholds": {
+    "sweet_corn": {
+      "name": "Sweet Corn",
+      "salinity_threshold": {
+        "value": "1.7",
+        "unit": "dS/m",
+        "parameter": "ECe"
+      },
+      "yield_decline_per_dS_m": {
+        "value": "11.5",
+        "unit": "%",
+        "description": "Above threshold"
+      },
+      "fresh_ear_decline": {
+        "value": "7.7",
+        "unit": "%",
+        "description": "Per dS/m above 5.8 dS/m"
+      }
+    },
+    "field_corn": {
+      "name": "Field Corn (Grain)",
+      "yield_decline": {
+        "value": "10.1",
+        "unit": "%",
+        "description": "Per dS/m above ~5.5 dS/m ECw"
+      }
+    },
+    "sugar_beet": {
+      "name": "Sugar Beet",
+      "salinity_threshold": {
+        "value": "5.3",
+        "unit": "dS/m",
+        "parameter": "ECe"
+      }
+    },
+    "alfalfa": {
+      "name": "Alfalfa",
+      "threshold": {
+        "value": "2.0",
+        "unit": "dS/m"
+      },
+      "yield_decline_slope": {
+        "value": "7.3",
+        "unit": "%"
+      }
+    },
+    "tall_wheatgrass": {
+      "name": "Tall Wheatgrass",
+      "threshold": {
+        "value": "7.5",
+        "unit": "dS/m"
+      },
+      "yield_decline_slope": {
+        "value": "4.2",
+        "unit": "%"
+      }
+    },
+    "wheat": {
+      "name": "Wheat",
+      "seasonal_water_requirement": {
+        "value": "450-650",
+        "unit": "mm"
+      }
+    },
+    "maize": {
+      "name": "Maize",
+      "seasonal_water_requirement": {
+        "value": "550-800",
+        "unit": "mm"
+      }
+    },
+    "cotton": {
+      "name": "Cotton",
+      "seasonal_water_requirement": {
+        "value": "700-1300",
+        "unit": "mm"
+      }
+    }
+  }
+}
