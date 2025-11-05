@@ -63,6 +63,4 @@ src/
 └── utils/                 # Utility functions
 ```
 
-## Deployment
 
-This is a prototype application intended for demonstration purposes. For production deployment, additional security measures and optimizations should be implemented.
